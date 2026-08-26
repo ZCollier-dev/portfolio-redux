@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    flex-direction: row
+}
+
+.header-title-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title, .header-subscript {
+    font-family: "Averia Serif Libre", Times, serif;
+}
+
+.header-title {
+    font-size: 1.5rem;
+}
+
+.header-subscript {
+    font-size: 0.8rem;
+}

@@ -1,7 +1,6 @@
 export default function Home() {
-  return (
-    <main>
-      home page
-    </main>
-  )
+  return <main>
+    home page
+  </main>
+
 }
