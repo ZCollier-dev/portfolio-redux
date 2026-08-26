@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks'
 import './app.css'
 
 import {
@@ -11,6 +10,7 @@ import {
 
 // synchronous
 import Home from "./pages/Home"
+
 import Head from "./pages/Head"
 import Foot from "./pages/Foot"
 
@@ -18,11 +18,20 @@ import Foot from "./pages/Foot"
 const NotFound = lazy(() => import("./pages/NotFound"))
 
 export function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-
+      <Head />
+      <body>
+        <LocationProvider>
+          <ErrorBoundary>
+            <Router>
+              <Route path='/' component={Home} />
+              <Route default component={NotFound} />
+            </Router>
+          </ErrorBoundary>
+        </LocationProvider>
+      </body>
+      <Foot />
     </>
   )
 }
