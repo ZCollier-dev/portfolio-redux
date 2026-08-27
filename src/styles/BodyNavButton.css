@@ -1,5 +1,6 @@
-.head-button button {
-    padding: 0.5rem 1rem;
+.body-button button {
+    padding: 0.5rem 2rem;
+    font-size: 12pt;
     background-color: #aaaaaa;
     border-radius: 8px;
     font-family: "Averia Serif Libre", Times, serif;

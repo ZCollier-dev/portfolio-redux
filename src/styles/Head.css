@@ -1,6 +1,10 @@
 header {
     display: flex;
-    flex-direction: row
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20%;
+    border-bottom: 1px solid black;
 }
 
 .header-title-group {
@@ -18,4 +22,10 @@ header {
 
 .header-subscript {
     font-size: 0.8rem;
+}
+
+.nav-top-bar {
+    display: inline-grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1rem;
 }

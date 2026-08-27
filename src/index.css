@@ -16,17 +16,16 @@
   src: url(https://cdn.jsdelivr.net/fontsource/fonts/noto-sans:vf@latest/latin-wght-normal.woff2) format('woff2-variations');
 }
 
-body {
-    margin: 0;
-}
-
 #app {
     max-width: 100%;
-    margin: 0 auto;
     min-height: 100svh;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+}
+
+body {
+    margin: 0;
 }
 
 h1,
@@ -36,30 +35,29 @@ h4,
 h5,
 h6 {
     font-family: "Averia Serif Libre", Times, serif;
-    font-weight: 400;
+    margin: 0;
 }
 
 h1 {
-    font-size: 56px;
-    letter-spacing: -1.68px;
-    margin: 32px 0;
+    font-size: 48pt;
     @media (max-width: 1024px) {
-        font-size: 36px;
-        margin: 20px 0;
+        font-size: 36pt;
     }
 }
 
 h2 {
-    font-size: 24px;
-    line-height: 118%;
-    letter-spacing: -0.24px;
-    margin: 0 0 8px;
+    font-size: 20pt;
     @media (max-width: 1024px) {
-        font-size: 20px;
+        font-size: 16pt;
     }
 }
 
 p {
     font-family: "Noto Sans Variable", Arial, sans-serif;
+    font-size: 12pt;
     margin: 0;
+}
+
+main {
+    margin: 1rem 20%;
 }

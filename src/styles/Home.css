@@ -1,0 +1,17 @@
+.home-section {
+    width: 70%;
+    position: relative;
+    top: 10svh;
+    left: 5%;
+}
+
+.home-section p {
+    margin-top: 0.5rem;
+}
+
+.home-button-area {
+    margin-top: 0.5rem;
+    display: inline-grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+}
