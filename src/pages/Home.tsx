@@ -1,4 +1,4 @@
-import Button from "../components/BodyNavButton"
+import Button from "../components/buttons/BodyNavButton"
 
 import "../styles/Home.css"
 

@@ -1,6 +1,6 @@
 import '../styles/Head.css'
 
-import Button from "./HeadNavButton"
+import Button from "./buttons/HeadNavButton"
 
 export default function Head() {
   return (
