@@ -1,0 +1,15 @@
+.proj-section {
+    position: relative;
+    top: 10svh;
+    left: 5%;
+}
+
+.proj-page-top {
+    padding-bottom: 1rem;
+}
+
+.proj-entries {
+    list-style-type: none;
+    margin-top: 1rem;
+    padding: 0;
+}
