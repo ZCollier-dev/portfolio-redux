@@ -1,10 +1,12 @@
 .proj-entry {
     background-color: #666666;
     padding: 1.5rem 2rem;
+    margin-bottom: 1rem;
     border-radius: 8px;
 }
 
 .proj-entry-top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
