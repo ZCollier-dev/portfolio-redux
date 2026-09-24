@@ -5,7 +5,7 @@ import "../styles/Projects.css"
 export default function Projects() {
   return <main>
     <section className="proj-section">
-      <div className="proj-page-top">
+      <div className="page-heading">
         <h1>Projects</h1>
         <h2>that I am proud of.</h2>
       </div>
@@ -32,7 +32,7 @@ export default function Projects() {
             projectName="Airport Backend API"
             projectLangs="Java"
             projectTechs="Maven, Spring Boot, JUnit, Mockito, MySQL, BCrypt, Docker, AWS"
-            projectDesc="The backend for the SDAT course's Midterm and Final Sprints during the final semester at Keyin College's Software Development program. A system created by my team of three that sends and receives data about airports, aircrafts, arrivals, departures, and more. SQL database tables connect all data together. Includes tests and all wrapped in a Docker container. Originally hosted on AWS as part of the Final Sprint's requirements, but has since been taken down. A link to a video describing how the full project worked is in the project's README - I recorded the final part with AWS."
+            projectDesc="The backend for the SDAT course's Midterm and Final Sprints during the final semester at Keyin College's Software Development program. A system created by a team of three that sends and receives data about airports, aircrafts, arrivals, departures, and more. SQL database tables connect all data together. Includes tests and all wrapped in a Docker container. Originally hosted on AWS as part of the Final Sprint's requirements, but has since been taken down. A link to a video describing how the full project worked is in the project's README - I recorded the final part with AWS."
             gitButtonLink="https://github.com/ZCollier-dev/sdat-devops-zss-sprint-api" />
         </li>
       </ul>

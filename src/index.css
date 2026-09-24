@@ -61,3 +61,11 @@ p {
 main {
     margin: 1rem 20%;
 }
+
+.page-heading {
+    padding-bottom: 1rem;
+}
+
+.stylized {
+    font-family: "Averia Serif Libre", Times, serif;
+}
