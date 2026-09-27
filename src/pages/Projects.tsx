@@ -7,7 +7,7 @@ export default function Projects() {
     <section className="proj-section">
       <div className="page-heading">
         <h1>Projects</h1>
-        <h2>that I am proud of.</h2>
+        <h2>that I am proud of</h2>
       </div>
       <p>Ordered reverse-chronologically.</p>
       <ul className="proj-entries">
