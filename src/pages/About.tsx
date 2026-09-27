@@ -18,6 +18,7 @@ export default function About() {
         Through study, both in and out of college, I have picked up on multiple programming languages and technologies, including the following...
       </p>
       <LangList />
+      <hr />
       <TechList />
       <p>
         I am always looking to expand my horizons, whether that be through programming or another related skill, especially when more project requirements manifest as work continues onward. I like to take some time to figure out what code, API, or component may be required for a project, understanding why the project needs said item, and ensuring everyone involved understands the plan of action.

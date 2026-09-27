@@ -1,4 +1,4 @@
-import '../styles/Head.css'
+import '../styles/components/Head.css'
 
 import Anchor from "../assets/anchor-hc.png"
 import Button from "./buttons/HeadNavButton"

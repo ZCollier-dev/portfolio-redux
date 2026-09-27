@@ -1,4 +1,4 @@
-import "../../styles/buttons/BodyNavButton.css"
+import "../../styles/components/buttons/BodyNavButton.css"
 
 export default function BodyNavButton(props: {name: string, link: string}) {
   return <a className="body-button" href={props.link}>

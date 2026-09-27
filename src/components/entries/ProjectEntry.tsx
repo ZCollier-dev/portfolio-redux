@@ -1,6 +1,6 @@
 import Button from "../buttons/ProjNavButton"
 
-import "../../styles/entries/ProjectEntry.css"
+import "../../styles/components/entries/ProjectEntry.css"
 
 export default function ProjectEntry(props: {
   projectName: string,

@@ -1,4 +1,4 @@
-import "../styles/Foot.css"
+import "../styles/components/Foot.css"
 
 export default function Foot() {
   return (
