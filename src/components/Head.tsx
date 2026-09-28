@@ -17,7 +17,7 @@ export default function Head() {
         <Button name="Home" link="/" />
         <Button name="About" link="/about" />
         <Button name="Projects" link="/projects" />
-        <Button name="Contact" link="/" />
+        <Button name="Contact" link="/contact" />
       </nav>
     </header>
   )

@@ -21,7 +21,6 @@ const NotFound = lazy(() => import("./pages/NotFound"))
 export function App() {
   return <>
     <Head />
-    <body>
       <LocationProvider>
         <ErrorBoundary>
           <Router>
@@ -33,7 +32,6 @@ export function App() {
           </Router>
         </ErrorBoundary>
       </LocationProvider>
-    </body>
     <Foot />
   </>
 }
