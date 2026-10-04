@@ -1,12 +1,16 @@
 footer {
+    display: flex;
+    align-items: center;
     width: 100%;
-    position: fixed;
-    z-index: 10;
-    bottom: 0;
+    min-height: 4rem;
+    margin-top: auto;
+    position: relative;
     padding: 1rem 20%;
     background-image: linear-gradient(to top, rgba(192,192,192,1), rgba(255,255,255,0.9) 90%, rgba(255,255,255,0));
 }
 
 .copy-notice {
-    font-size: 8pt;
+    text-align: center;
+    font-size: 10pt;
+    color: rgba(0,0,0,0.5);
 }
