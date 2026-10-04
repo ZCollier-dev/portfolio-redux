@@ -1,6 +1,6 @@
-import Entry from "../components/entries/ProjectEntry"
-
 import "../styles/Projects.css"
+
+import Entry from "../components/entries/ProjectEntry"
 
 export default function Projects() {
   return <main>

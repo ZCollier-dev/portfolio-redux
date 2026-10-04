@@ -1,0 +1,48 @@
+.contact-section {
+    width: 80%;
+    position: relative;
+    top: 10svh;
+    left: 5%;
+}
+
+.contact-info-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.contact-entry {
+    transition: .5s ease;
+    color: black;
+    text-decoration: none;
+}
+
+.contact-entry:hover {
+    color: dimgray;
+    text-decoration: underline;
+}
+
+.contact-entry > div {
+    transition: 0.5s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.25rem 0rem;
+    padding: 0.5rem;
+    background-color: rgba(128,128,128,0);
+    background-image: linear-gradient(to bottom right, rgba(128,128,128,0), rgba(128,128,128,1));
+    box-shadow: 4px 4px 4px  rgba(128,128,128,1);
+    border: 1px solid rgba(128,128,128,0.5);
+    border-radius: 0.5rem;
+}
+
+.contact-entry > div:hover {
+    background-color: rgba(128,128,128,0.2);
+    box-shadow: 8px 8px 8px  rgba(128,128,128,1);
+}
+
+.contact-entry > div > img {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+}

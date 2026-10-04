@@ -1,3 +1,5 @@
+import "../styles/components/LangTechList.css"
+
 import LangTechEntry from "./entries/LangTechEntry"
 
 import PostgresqlLogo from "../assets/postgresql-logo.png"

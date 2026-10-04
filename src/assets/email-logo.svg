@@ -1,0 +1,8 @@
+<!-- Created with PixiEditor (https://pixieditor.net) -->
+<svg version="1.1" viewBox="0 0 130 66" xmlns="http://www.w3.org/2000/svg">
+  <line x1="128.06011962890625" y1="64.08042907714844" x2="76.73326110839844" y2="25.719314575195312" transform="matrix(1, 0, 0, 1, 1, 1)" fill="#ffffff" fill-opacity="0" stroke="#000000" stroke-width="2" opacity="1" id="Line" />
+  <line x1="64" y1="32" x2="128" y2="0" transform="matrix(1.0050281, 0, -7.778032E-16, 1.0050275, 0.35419083, 1.0044968)" fill="#ffffff" fill-opacity="0" stroke="#000000" stroke-width="2" opacity="1" id="Line" />
+  <line x1="50.90985107421875" y1="25.718515396118164" x2="-0.060374289751052856" y2="64.08021545410156" transform="matrix(1, 0, 0, 1, 1, 1)" fill="#ffffff" fill-opacity="0" stroke="#000000" stroke-width="2" opacity="1" id="Line" />
+  <line x1="0" y1="0" x2="64" y2="32" transform="matrix(1.0091614, 0, 0, 1.0091615, 1.0040971, 1.0081942)" fill="#ffffff" fill-opacity="0" stroke="#000000" stroke-width="2" opacity="1" id="Line" />
+  <rect x="0" y="0" width="128" height="64" rx="0" ry="0" transform="matrix(1, 0, 0, 1, 1, 1)" fill="#ffffff" fill-opacity="0" stroke="#000000" stroke-width="2" opacity="1" id="Rectangle" />
+</svg>
