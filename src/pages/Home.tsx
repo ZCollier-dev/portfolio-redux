@@ -1,6 +1,6 @@
-import Button from "../components/buttons/BodyNavButton"
-
 import "../styles/Home.css"
+
+import Button from "../components/buttons/BodyNavButton"
 
 export default function Home() {
   return <main>
