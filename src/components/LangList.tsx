@@ -2,8 +2,8 @@ import "../styles/components/LangTechList.css"
 
 import LangTechEntry from "./entries/LangTechEntry"
 
-import HTML5Logo from "../assets/html5-logo.png"
-import CSS3Logo from "../assets/css3-logo.png"
+import HTML5Logo from "../assets/html5-logo.svg"
+import CSS3Logo from "../assets/css3-logo.svg"
 import JSLogo from "../assets/javascript-logo.png"
 import TSLogo from "../assets/typescript-logo.svg"
 
