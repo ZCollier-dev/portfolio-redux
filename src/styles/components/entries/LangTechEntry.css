@@ -4,16 +4,16 @@
     min-width: 8rem;
     padding: 0.5rem;
     margin: 1rem 0rem;
-    background-color: rgba(128,128,128,0);
-    background-image: linear-gradient(to bottom right, rgba(128,128,128,0), rgba(128,128,128,1));
-    box-shadow: 4px 4px 4px  rgba(128,128,128,1);
-    border: 1px solid rgba(128,128,128,0.5);
+    background-color: var(--empty-color);
+    background-image: var(--entry-gradient);
+    box-shadow: 4px 4px 4px  var(--entry-full-color);
+    border: 1px solid var(--main-accent-color);
     border-radius: 0.5rem;
 }
 
 .lang-entry:hover{
-    background-color: rgba(128,128,128,0.2);
-    box-shadow: 8px 8px 8px  rgba(128,128,128,1);
+    background-color: var(--entry-hover-color);
+    box-shadow: 8px 8px 8px  var(--entry-full-color);
 }
 
 .lang-entry .lang-text {
@@ -36,8 +36,8 @@
     text-align: center;
     width: 100%;
     z-index: inherit;
-    background-image: linear-gradient(to right, rgba(96,96,96,0), rgba(96,96,96,1) 20%, rgba(96,96,96,1) 80%, rgba(96,96,96,0));
-    color: white;
+    background-image: var(--entry-banner-gradient);
+    color: var(--entry-banner-text-color);
     opacity: 1;
 }
 

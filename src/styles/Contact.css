@@ -13,12 +13,12 @@
 
 .contact-entry {
     transition: .5s ease;
-    color: black;
+    color: var(--main-text-color);
     text-decoration: none;
 }
 
 .contact-entry:hover {
-    color: dimgray;
+    color: var(--sub-accent-color);
     text-decoration: underline;
 }
 
@@ -29,16 +29,16 @@
     align-items: center;
     margin: 0.25rem 0rem;
     padding: 0.5rem;
-    background-color: rgba(128,128,128,0);
-    background-image: linear-gradient(to bottom right, rgba(128,128,128,0), rgba(128,128,128,1));
-    box-shadow: 4px 4px 4px  rgba(128,128,128,1);
-    border: 1px solid rgba(128,128,128,0.5);
+    background-color: var(--empty-color);
+    background-image: var(--entry-gradient);
+    box-shadow: 4px 4px 4px  var(--main-accent-color);
+    border: 1px solid var(--main-accent-color);
     border-radius: 0.5rem;
 }
 
 .contact-entry > div:hover {
-    background-color: rgba(128,128,128,0.2);
-    box-shadow: 8px 8px 8px  rgba(128,128,128,1);
+    background-color: var(--entry-hover-color);
+    box-shadow: 8px 8px 8px  var(--main-accent-color);
 }
 
 .contact-entry > div > img {
