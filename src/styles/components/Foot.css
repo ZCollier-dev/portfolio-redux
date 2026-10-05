@@ -1,16 +1,17 @@
 footer {
     display: flex;
     align-items: center;
-    width: 100%;
     min-height: 4rem;
     margin-top: auto;
     position: relative;
     padding: 1rem 20%;
-    background-image: linear-gradient(to top, rgba(192,192,192,1), rgba(255,255,255,0.9) 90%, rgba(255,255,255,0));
+    background-color: var(--bg-color);
+    background-image: linear-gradient(to top, var(--foot-gradient-color-1), var(--foot-gradient-color-2) 90%, var(--empty-color));
 }
 
 .copy-notice {
     text-align: center;
-    font-size: 10pt;
-    color: rgba(0,0,0,0.5);
+    font-size: 0.8rem;
+    color: var(--main-text-color);
+    opacity: 0.5;
 }
