@@ -5,6 +5,7 @@ footer {
     margin-top: auto;
     position: relative;
     padding: 1rem 20%;
+    border-top: 2px solid var(--main-accent-color);
     background-color: var(--bg-color);
     background-image: linear-gradient(to top, var(--foot-gradient-color-1), var(--foot-gradient-color-2) 90%, var(--empty-color));
 }
@@ -13,5 +14,5 @@ footer {
     text-align: center;
     font-size: 0.8rem;
     color: var(--main-text-color);
-    opacity: 0.5;
+    opacity: 0.7;
 }

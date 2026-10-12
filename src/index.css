@@ -1,7 +1,7 @@
 :root {
     --empty-color: rgba(0,0,0,0);
 
-    --bg-color: rgba(128,128,128,0.1);
+    --bg-color: rgba(255,248,245,1);
 
     --main-text-color: rgba(0,0,0,1);
 
@@ -10,28 +10,38 @@
     --sub-accent-color: rgba(96,96,96,1);
 
     /* Header gradient colors. */
-    --head-gradient-color-1: rgba(192,192,192,1);
-    --head-gradient-color-2: rgba(255,255,255,0.9);
+    --head-gradient-color-1: rgba(102,194,255,1);
+    --head-gradient-color-2: rgba(102,194,255,0.1);
 
     /* Footer gradient colors. */
-    --foot-gradient-color-1: rgba(192,192,192,1);
-    --foot-gradient-color-2: rgba(255,255,255,0.9);
+    --foot-gradient-color-1: rgba(51,102,204,1);
+    --foot-gradient-color-2: rgba(51,102,204,0.1);
 
     /* Gradient colors for all buttons. */
-    --button-border: 2px solid var(--main-accent-color);
-    --button-gradient-color-1: rgba(224,224,224,1);
-    --button-gradient-color-2: rgba(160,160,160,1);
-    --button-gradient: linear-gradient(to bottom right, var(--button-gradient-color-1), var(--button-gradient-color-2));
+    --button-border: 1px solid var(--sub-accent-color);
+    --button-border-hover: 1px solid var(--main-text-color);
+    --button-gradient-color-1: rgba(191,209,230,1);
+    --button-gradient-color-2: rgba(191,209,230,0.6);
+    --button-gradient-color-3: rgba(230,209,191,1);
+    --button-gradient-color-4: rgba(230,209,191,0.6);
+    --button-gradient-1: linear-gradient(to bottom right, var(--button-gradient-color-1), var(--button-gradient-color-2));
+    --button-gradient-2: linear-gradient(to bottom right, var(--button-gradient-color-3), var(--button-gradient-color-4));
 
     /* Gradient colors for all entry-type elements. */
-    --entry-full-color: rgba(128,128,128,1);
-    --entry-hover-color: rgba(128,128,128,0.2);
-    --entry-gradient: linear-gradient(to bottom right, var(--empty-color), var(--entry-full-color));
+    --entry-gradient-color-1: rgba(110,140,178,1);
+    --entry-gradient-color-2: rgba(110,140,178,0.2);
+    --entry-hover-color: rgba(110,140,178,0.2);
+    --entry-gradient: linear-gradient(to bottom right, var(--entry-gradient-color-2), var(--entry-gradient-color-1));
 
     /* Gradient colors for the banners for entry-type elements. */
     --entry-banner-color: rgba(96,96,96,1);
     --entry-banner-text-color: rgba(255,255,255,1);
     --entry-banner-gradient: linear-gradient(to right, var(--empty-color), var(--entry-banner-color) 20%, var(--entry-banner-color) 80%, var(--empty-color));
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+
 }
 
 /* averia-serif-libre-latin-400-normal */

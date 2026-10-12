@@ -7,6 +7,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
+    border-bottom: 2px solid var(--main-accent-color);
     background-color: var(--bg-color);
     background-image: linear-gradient(to bottom, var(--head-gradient-color-1), var(--head-gradient-color-2) 90%, var(--empty-color));
 }
