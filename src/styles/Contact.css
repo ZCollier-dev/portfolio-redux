@@ -38,7 +38,7 @@
 
 .contact-entry > div:hover {
     background-color: var(--entry-hover-color);
-    box-shadow: 8px 8px 8px  var(--main-accent-color);
+    box-shadow: 8px 8px 8px  var(--sub-accent-color);
 }
 
 .contact-entry > div > img {

@@ -1,7 +1,7 @@
 import "../styles/Contact.css"
 
 import EmailIcon from "../assets/email-logo.svg"
-import GitHubLogo from "../assets/github-logo.svg"
+import GitHubLogoBlk from "../assets/github-logo-b.svg"
 import LinkedInLogo from "../assets/linkedin-logo.png"
 
 export default function Contact() {
@@ -20,7 +20,7 @@ export default function Contact() {
         </div>
         <a className="contact-entry" href="https://github.com/ZCollier-dev" target="_blank">
           <div>
-            <img src={GitHubLogo} />
+            <img src={GitHubLogoBlk} />
             <h3>github.com/ZCollier-dev</h3>
           </div>
         </a>
