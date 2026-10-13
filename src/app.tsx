@@ -18,8 +18,12 @@ import Foot from "./components/Foot"
 // async
 const NotFound = lazy(() => import("./pages/NotFound"))
 
+// other
+import ThemeProvider from './utils/ThemeContext'
+
 export function App() {
-  return <>
+
+  return <ThemeProvider>
     <Head />
       <LocationProvider>
         <ErrorBoundary>
@@ -33,5 +37,5 @@ export function App() {
         </ErrorBoundary>
       </LocationProvider>
     <Foot />
-  </>
+  </ThemeProvider>
 }

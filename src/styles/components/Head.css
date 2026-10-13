@@ -7,7 +7,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 10;
-    border-bottom: 2px solid var(--main-accent-color);
+    border-bottom: 2px solid var(--head-gradient-color-1);
     background-color: var(--bg-color);
     background-image: linear-gradient(to bottom, var(--head-gradient-color-1), var(--head-gradient-color-2) 90%, var(--empty-color));
 }
@@ -42,6 +42,6 @@ header {
 
 .nav-top-bar {
     display: inline-grid;
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(5, auto);
     gap: 1rem;
 }
