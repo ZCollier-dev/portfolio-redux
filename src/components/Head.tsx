@@ -2,6 +2,7 @@ import '../styles/components/Head.css'
 
 import Anchor from "../assets/anchor-hc.png"
 import Button from "./buttons/HeadNavButton"
+import { DarkModeButton as ThemeButton } from "./buttons/DarkModeButton"
 
 export default function Head() {
   return (
@@ -14,6 +15,7 @@ export default function Head() {
         </div>
       </div>
       <nav className="nav-top-bar">
+        <ThemeButton />
         <Button name="Home" link="/" />
         <Button name="About" link="/about" />
         <Button name="Projects" link="/projects" />
