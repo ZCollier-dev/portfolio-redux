@@ -28,10 +28,10 @@ export function App() {
       <LocationProvider scope='/portfolio-redux'>
         <ErrorBoundary>
           <Router>
-            <Route path='/' component={Home} />
-            <Route path='/about' component={About} />
-            <Route path='/projects' component={Projects} />
-            <Route path='/contact' component={Contact} />
+            <Route path='/portfolio-redux/' component={Home} />
+            <Route path='/portfolio-redux/about' component={About} />
+            <Route path='/portfolio-redux/projects' component={Projects} />
+            <Route path='/portfolio-redux/contact' component={Contact} />
             <Route default component={NotFound} />
           </Router>
         </ErrorBoundary>
