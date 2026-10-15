@@ -29,7 +29,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: 'Checkout Code'
         uses: actions/checkout@v4
-          
+
       - name: Setup Node
         uses: actions/setup-node@v6
 
@@ -41,20 +41,19 @@ jobs:
         with:
           path: './dist'
 
-deploy:
-  name: 'Deploy'
-  needs: build
-    
-  permissions:
-    pages: write
-    id-token: write
-      
-  runs-on: ubuntu-latest
-  environment:
-    name: github-pages
-    url: ${{ steps.deployment.outputs.page_url }}
+  deploy:
+    name: 'Deploy'
+    needs: build
 
-  steps:
+    permissions:
+      pages: write
+      id-token: write
+
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: 'Deploy to GitHub Pages'
         id: deployment
