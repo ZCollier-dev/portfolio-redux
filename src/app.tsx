@@ -25,7 +25,7 @@ export function App() {
 
   return <ThemeProvider>
     <Head />
-      <LocationProvider>
+      <LocationProvider scope='/portfolio-redux'>
         <ErrorBoundary>
           <Router>
             <Route path='/' component={Home} />

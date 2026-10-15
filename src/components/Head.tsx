@@ -24,10 +24,10 @@ export default function Head() {
       </div>
       <nav className="nav-top-bar">
         <ThemeButton />
-        <Button name="Home" link="/" />
-        <Button name="About" link="/about" />
-        <Button name="Projects" link="/projects" />
-        <Button name="Contact" link="/contact" />
+        <Button name="Home" link="/portfolio-redux/" />
+        <Button name="About" link="/portfolio-redux/about" />
+        <Button name="Projects" link="/portfolio-redux/projects" />
+        <Button name="Contact" link="/portfolio-redux/contact" />
       </nav>
     </header>
   )
