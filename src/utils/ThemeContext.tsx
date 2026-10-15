@@ -1,7 +1,7 @@
 import { createContext, type ComponentChildren, type FunctionComponent } from "preact";
 
 import { ThemeSetter, ThemeSwapper } from "./ThemeSwapper";
-import { computed, Signal, signal } from "@preact/signals";
+import { Signal, signal } from "@preact/signals";
 
 // context theme
 import type { Theme } from "../types/Theme";

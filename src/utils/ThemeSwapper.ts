@@ -5,6 +5,8 @@ import type { Theme } from "../types/Theme";
 const rootElement = document.documentElement
 
 function LightTheme() {
+  rootElement.style.setProperty('--theme', 'dark')
+
   rootElement.style.setProperty('--bg-color', 'rgba(255,248,245,1)')
 
   rootElement.style.setProperty('--main-text-color', 'rgba(0,0,0,1)')
@@ -33,6 +35,8 @@ function LightTheme() {
 }
 
 function DarkTheme() {
+  rootElement.style.setProperty('--theme', 'dark')
+
   rootElement.style.setProperty('--bg-color', 'rgba(30,27,24,1)')
 
   rootElement.style.setProperty('--main-text-color', 'rgba(240,240,240,1)')
@@ -45,10 +49,10 @@ function DarkTheme() {
   rootElement.style.setProperty('--foot-gradient-color-1', 'rgba(25,50,100,1)')
   rootElement.style.setProperty('--foot-gradient-color-2', 'rgba(25,50,100,0.1)')
 
-  rootElement.style.setProperty('--button-gradient-color-1', 'rgba(90,110,130,1)')
-  rootElement.style.setProperty('--button-gradient-color-2', 'rgba(90,110,130,0.6)')
-  rootElement.style.setProperty('--button-gradient-color-3', 'rgba(110,90,70,1)')
-  rootElement.style.setProperty('--button-gradient-color-4', 'rgba(110,90,70,0.6)')
+  rootElement.style.setProperty('--button-gradient-color-1', 'rgba(50,70,90,1)')
+  rootElement.style.setProperty('--button-gradient-color-2', 'rgba(50,70,90,0.6)')
+  rootElement.style.setProperty('--button-gradient-color-3', 'rgba(90,70,50,1)')
+  rootElement.style.setProperty('--button-gradient-color-4', 'rgba(90,70,50,0.6)')
 
   rootElement.style.setProperty('--entry-gradient-color-1', 'rgba(120,130,150,1)')
   rootElement.style.setProperty('--entry-gradient-color-2', 'rgba(120,130,150,0.2)')
