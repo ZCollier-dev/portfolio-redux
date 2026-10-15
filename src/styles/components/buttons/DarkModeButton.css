@@ -26,7 +26,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s ease;
     color: var(--entry-banner-text-color);
     background-color: var(--main-text-color);
     width: 1rem;
