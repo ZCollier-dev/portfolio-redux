@@ -1,10 +1,15 @@
 .dark-mode-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
     transition: .5s ease;
     width: 100%;
     height: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0 0.3rem;
     text-decoration: none;
-    background-image: var(--button-gradient-2);
+    background-image: var(--button-gradient-1);
     border: var(--button-border);
     border-radius: 8px;
     box-shadow: 1px 1px 1px  var(--main-accent-color);
@@ -14,6 +19,23 @@
 .dark-mode-button:hover {
     border: var(--button-border-hover);
     box-shadow: 2px 2px 2px  var(--sub-accent-color);
-    text-decoration: underline;
     opacity: 0.7;
+}
+
+.dark-mode-button .switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .5s ease;
+    color: var(--entry-banner-text-color);
+    background-color: var(--main-text-color);
+    width: 1rem;
+    height: 1.5rem;
+    border-radius: 4px;
+    border: var(--button-border);
+}
+
+.dark-mode-button .symbol {
+    transition: .5s ease;
+    font-size: 1.5rem;
 }
