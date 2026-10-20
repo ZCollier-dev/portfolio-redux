@@ -15,8 +15,8 @@ export default function Projects() {
           <Entry
             projectName="This Portfolio"
             projectLangs="HTML, CSS, TypeScript"
-            projectTechs="Preact"
-            projectDesc="The third attempt at building a portfolio from scratch. Not a complex set of webpages (yet), but certainly gets the job done."
+            projectTechs="Preact, GitHub Pages"
+            projectDesc="The third portfolio I have created. The first was part of Keyin College's Software Development program during the second semester, while the second was an attempt which never got off the ground. Features automatic detection of your browser's preferred theme along with a switch to swap themes on command. Otherwise, it is a simple website."
             gitButtonLink="https://github.com/ZCollier-dev/portfolio-redux" />
         </li>
         <li>
