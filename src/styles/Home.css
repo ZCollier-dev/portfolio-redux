@@ -12,6 +12,6 @@
 .home-button-area {
     margin-top: 0.5rem;
     display: inline-grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     gap: 1rem;
 }

@@ -9,7 +9,7 @@ import { useContext } from "preact/hooks";
 
 import { ThemeContext } from "../utils/ThemeContext";
 
-export default function Head() {
+export default function Head(props: {baseRoute: string}) {
   const theme = useContext(ThemeContext)
 
   return (
@@ -24,10 +24,10 @@ export default function Head() {
       </div>
       <nav className="nav-top-bar">
         <ThemeButton />
-        <Button name="Home" link="/portfolio-redux/" />
-        <Button name="About" link="/portfolio-redux/about" />
-        <Button name="Projects" link="/portfolio-redux/projects" />
-        <Button name="Contact" link="/portfolio-redux/contact" />
+        <Button name="Home" link={props.baseRoute + '/'} />
+        <Button name="About" link={props.baseRoute + '/about'} />
+        <Button name="Projects" link={props.baseRoute + '/projects'} />
+        <Button name="Contact" link={props.baseRoute + '/contact'} />
       </nav>
     </header>
   )
