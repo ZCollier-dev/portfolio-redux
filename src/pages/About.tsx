@@ -33,7 +33,7 @@ export default function About() {
       </p>
       <br />
       <p>
-        If you're looking for a newbie with some technical knowledge, enjoys solving real-world problems, is happy to listen to and collaborate with his peers, and wishes to grow his skills properly, alongside a helping of dry wit here and there...
+        If you're looking for a newbie with some technical knowledge, who enjoys solving real-world problems, is happy to listen to and collaborate with his peers, and wishes to grow his skills properly, alongside a helping of dry wit here and there...
       </p>
       <br />
       <p className="stylized">
